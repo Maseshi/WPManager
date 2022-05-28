@@ -21,7 +21,7 @@ echo  - Professional Plus 2019
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -112,7 +112,7 @@ cscript //nologo ospp.vbs /act | find /i "successful" >nul && (
     echo How it works: bit.ly/understanding-kms
     echo.
     pause
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
 ) || (
     echo .
     echo %ESC%[93mUnable to connect to the provider server. Trying to switch to another server...%ESC%[0m

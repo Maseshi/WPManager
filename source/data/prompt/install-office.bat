@@ -14,7 +14,7 @@ echo  - Network
 echo.
 choice /n /c YN /m "Are you sure you want to continue? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -29,7 +29,7 @@ if "%PROCESSOR_ARCHITECTURE%" == "x86" (
     echo %ESC%[93mYour device is not supported.%ESC%[0m
     echo.
     pause
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
 )
 echo Calling the Office 365 installer...
 cd office365
@@ -40,6 +40,6 @@ setup.exe /configure configuration-Office365-%bit%.xml && (
 )
 echo.
 pause
-cd .. & call "Windows Product Manager.bat"
+cd .. & call "WPManager.bat"
 
 endlocal

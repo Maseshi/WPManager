@@ -60,6 +60,7 @@ if errorlevel 1 cd prompt & call install-office.bat
 goto :office
 exit /b 0
 
+@REM Comming soon...
 @REM :windowsServer
 @REM title Microsoft Windows Server
 @REM cd data

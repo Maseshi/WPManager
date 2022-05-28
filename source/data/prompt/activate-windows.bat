@@ -28,7 +28,7 @@ if "%version%" == "6.1" (
     echo Unfortunately, this tool cannot be activated with your current Windows or your Windows may not be supported.
     echo.
     pause
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
 )
 
 :win11
@@ -54,7 +54,7 @@ echo %ESC%[7mYou are running on Windows 11.%ESC%[0m
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -210,7 +210,7 @@ echo %ESC%[7mYou are running on Windows 10.%ESC%[0m
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -361,7 +361,7 @@ echo %ESC%[7mYou are running on Windows 8.1.%ESC%[0m
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -440,7 +440,7 @@ echo %ESC%[7mYou are running on Windows 8.%ESC%[0m
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -519,7 +519,7 @@ echo %ESC%[7mYou are running on Windows 7.%ESC%[0m
 echo.
 choice /n /c YN /m "Want to continue activating? [Y/n]"
 if errorlevel 2 (
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
     exit /b 0
 )
 
@@ -635,7 +635,7 @@ cscript //nologo slmgr.vbs /ato | find /i "successfully" >nul && (
     echo How it works: bit.ly/understanding-kms
     echo.
     pause
-    cd .. & call "Windows Product Manager.bat"
+    cd .. & call "WPManager.bat"
 ) || (
     echo .
     echo %ESC%[93mUnable to connect to the provider server. Trying to switch to another server...%ESC%[0m
