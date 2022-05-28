@@ -1,7 +1,7 @@
 mode con: cols=66 lines=30
 chcp 65001
 
-set "v=1.0.0"
+set "v=1.0.2.0"
 set "n=Windows Product Manager"
 set "verify=0"
 set "bgcoffee=           ─▄▀─▄▀&echo.           ──▀──▀&echo.           █▀▀▀▀▀█▄      █░█░█ █▀▀ █░░ █▀▀ █▀█ █▀▄▀█ █▀▀&echo.           █░░░░░█─█     ▀▄▀▄▀ ██▄ █▄▄ █▄▄ █▄█ █░▀░█ ██▄&echo.           ▀▄▄▄▄▄▀▀"
