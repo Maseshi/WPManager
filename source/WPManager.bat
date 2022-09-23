@@ -8,7 +8,7 @@ call init.bat
 title %n%
 cls
 call header.bat
-echo %bgcoffee%
+type coffee.txt
 echo.
 echo %ESC%[93mIf you are worried about computer virus within this instruction set. You don't need to turn off any of your antivirus tools, we recommend leaving it as is. Although this instruction set does not contain any viruses. We will not modify system files or steal your personal information.%ESC%[0m
 echo.
