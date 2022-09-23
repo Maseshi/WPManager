@@ -592,27 +592,28 @@ exit /b 0
 
 :activate
 echo Prepare for activation...
-set cserver=16
+set cserver=17
 set schoose=1
 
 echo Checking %cserver% provider servers...
-if %schoose% == 1 set server=kms.digiboy.ir:1688
-if %schoose% == 2 set server=hq1.chinancce.com:1688
-if %schoose% == 3 set server=54.223.212.31:1688
-if %schoose% == 4 set server=kms.cnlic.com:1688
-if %schoose% == 5 set server=kms.chinancce.com:1688
-if %schoose% == 6 set server=kms.ddns.net:1688
-if %schoose% == 7 set server=franklv.ddns.net:1688
-if %schoose% == 8 set server=k.zpale.com:1688
-if %schoose% == 9 set server=m.zpale.com:1688
-if %schoose% == 10 set server=mvg.zpale.com:1688
-if %schoose% == 11 set server=kms.shuax.com:1688
-if %schoose% == 12 set server=kensol263.imwork.net:1688
-if %schoose% == 13 set server=xykz.f3322.org:1688
-if %schoose% == 14 set server=kms789.com:1688
-if %schoose% == 15 set server=dimanyakms.sytes.net:1688
-if %schoose% == 16 set server=kms.03k.org:1688
-if %schoose% == 17 (
+if %schoose% == 1 set server=kms8.msguides.com:1688
+if %schoose% == 2 set server=kms.digiboy.ir:1688
+if %schoose% == 3 set server=hq1.chinancce.com:1688
+if %schoose% == 4 set server=54.223.212.31:1688
+if %schoose% == 5 set server=kms.cnlic.com:1688
+if %schoose% == 6 set server=kms.chinancce.com:1688
+if %schoose% == 7 set server=kms.ddns.net:1688
+if %schoose% == 8 set server=franklv.ddns.net:1688
+if %schoose% == 9 set server=k.zpale.com:1688
+if %schoose% == 10 set server=m.zpale.com:1688
+if %schoose% == 11 set server=mvg.zpale.com:1688
+if %schoose% == 12 set server=kms.shuax.com:1688
+if %schoose% == 13 set server=kensol263.imwork.net:1688
+if %schoose% == 14 set server=xykz.f3322.org:1688
+if %schoose% == 15 set server=kms789.com:1688
+if %schoose% == 16 set server=dimanyakms.sytes.net:1688
+if %schoose% == 17 set server=kms.03k.org:1688
+if %schoose% == 18 (
     echo Installing the previous product key...
     cscript //nologo slmgr.vbs /ipk %oldKey% >nul
     set "err=Sorry, it seems unable to connect to any provider server at all. & echo.Please try again later."
