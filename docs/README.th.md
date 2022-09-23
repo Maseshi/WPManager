@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Maseshi/WPManager/main/source/app-icon.png" width="100" />
+    <img src="https://raw.githubusercontent.com/Maseshi/WPManager/master/assets/icons/favicon-96x96.png" width="100" />
     <h1>
         <strong>Windows Product Manager</strong>
     </h1>
