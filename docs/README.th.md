@@ -1,23 +1,25 @@
 <div align="center">
+    <img src="https://raw.githubusercontent.com/Maseshi/WPManager/main/source/app-icon.png" width="100" />
     <h1>
         <strong>Windows Product Manager</strong>
     </h1>
-    <img src="https://img.shields.io/github/stars/Maseshi/WPManager.svg?logo=github&style=flat-square">
-    <img src="https://img.shields.io/github/license/Maseshi/WPManager.svg?logo=github&style=flat-square">
-    <p>เครื่องมือสำหรับการแคร็กผลิตภัณฑ์ในระบบปฏิบัติการ Windows</p>
+    <img src="https://img.shields.io/github/stars/Maseshi/WPManager.svg?logo=github&style=for-the-badge">
+    <img src="https://img.shields.io/github/v/release/Maseshi/WPManager?logo=java&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/Maseshi/WPManager.svg?logo=github&style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/Maseshi/WPManager?style=for-the-badge">
 </div>
 
-## Reported as a virus
+[EN](https://github.com/Maseshi/WPManager/blob/main/documents/README.en.md) | [TH](https://github.com/Maseshi/WPManager/blob/main/documents/README.th.md)
 
-เนื่องจากเป็นเครื่องมือแคร็ก จึงถูกตั้งค่าสถานะโดยความปลอดภัยของ Windows ว่าเป็นไวรัส แต่ฉันสัญญาว่าจะไม่แก้ไขหรือขโมยข้อมูลใดๆ ของคุณที่ไม่เกี่ยวกับการแคร็ก.
+เครื่องมือสำหรับการแคร็กผลิตภัณฑ์ในระบบปฏิบัติการ Windows
 
-## ชอบผลงาน
+## วิธีใช้งาน
 
-ชอบผลงานของเราใช่ไหม ซื้อกาแฟของเราสิ!
+โปรดอ่านส่วนของแต่ละตัวเลือกก่อน แล้วพิมพ์เลขหัวข้อที่ต้องการ
 
-<a href="https://www.buymeacoffee.com/maseshi" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150px" />
-</a>
+## แจ้งว่าเป็นไวรัส
+
+เนื่องจากเป็นเครื่องมือแคร็ก จึงถูกตั้งค่าสถานะโดยความปลอดภัยของ Windows ว่าเป็นไวรัส แต่ฉันสัญญาว่าจะไม่แก้ไขหรือขโมยข้อมูลใดๆ
 
 ## พบปัญหา
 

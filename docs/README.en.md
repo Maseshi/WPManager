@@ -1,23 +1,25 @@
 <div align="center">
+    <img src="https://raw.githubusercontent.com/Maseshi/WPManager/main/source/app-icon.png" width="100" />
     <h1>
         <strong>Windows Product Manager</strong>
     </h1>
-    <img src="https://img.shields.io/github/stars/Maseshi/WPManager.svg?logo=github&style=flat-square">
-    <img src="https://img.shields.io/github/license/Maseshi/WPManager.svg?logo=github&style=flat-square">
-    <p>A tool for cracking products in the Windows operating system.</p>
+    <img src="https://img.shields.io/github/stars/Maseshi/WPManager.svg?logo=github&style=for-the-badge">
+    <img src="https://img.shields.io/github/v/release/Maseshi/WPManager?logo=java&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/Maseshi/WPManager.svg?logo=github&style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/Maseshi/WPManager?style=for-the-badge">
 </div>
+
+[EN](https://github.com/Maseshi/WPManager/blob/main/documents/README.en.md) | [TH](https://github.com/Maseshi/WPManager/blob/main/documents/README.th.md)
+
+A tool for cracking products in the Windows operating system.
+
+## How to use
+
+Please read the section of each option first. Then type in the topic number you want.
 
 ## Reported as a virus
 
-Since it's a cracking tool, it's flagged by Windows Security as a virus. But I promise not to modify or steal any information. yours that is not related to cracking
-
-## Like the work
-
-Like our work? Buy our coffee!
-
-<a href="https://www.buymeacoffee.com/maseshi" target="_blank">
-     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150px" />
-</a>
+Since it's a cracking tool, it's flagged by Windows Security as a virus. But I promise not to modify or steal any information.
 
 ## Found a problem
 
